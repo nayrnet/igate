@@ -1,1 +1,15 @@
-/etc/systemd/system/direwolf.service
+[Unit]
+Description=DireWolf Deamon
+After=network.target
+After=sound.target
+After=time-sync.target
+After=syslog.target
+ 
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/local/bin/start-dw.sh
+User=direwolf
+
+[Install]
+WantedBy=multi-user.target
+Alias=direwolf.service
