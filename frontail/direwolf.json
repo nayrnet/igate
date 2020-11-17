@@ -1,1 +1,26 @@
-/etc/direwolf/direwolf.json
+{
+    "words": {
+        "Warning": "color: red;",
+        "NO tone": "color: olive;"
+    },
+    "lines": {
+        "audio level": "color: mediumspringgreen; font-weight: bold;",
+        "Digipeater": "color: green;",
+        "MIC-E": "color: olive;",
+        "Position": "color: olive;",
+        "Weather": "color: olive;",
+        "Weather": "color: olive;",
+        "Telemetry": "color: olive;",
+        "Status Report": "color: olive;",
+	"Warning": "color: gold; font-style: italic;",
+	"error": "color: red; font-weight: bold;",
+	"ADEVICE": "color: aqua; font-style: italic;",
+	"Yes,": "color: deepskyblue; font-style: italic;",
+        "EMERGENCY": "color: red; font-weight: bold;",
+	"[ig": "color: peru; font-style: italic;",
+        "[0": "color: lime;",
+	"Digipeater:": "color: violet; font-style: italic;",
+	"[0L": "color: violet; font-style: italic;",
+	"[0H": "color: violet; font-style: italic;"
+    }
+}
